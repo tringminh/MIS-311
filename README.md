@@ -83,15 +83,15 @@ within the available observations.
 
 ### Regional Comparison
 
-![Regional Comparison](images/regional_comparison.png)
+![Regional Comparison](regional_comparison.png)
 
 ### Income Distribution
 
-![Income Distribution](images/income_distribution.png)
+![Income Distribution](income_distribution.png)
 
 ### Income vs. Cost of Living
 
-![Correlation Plot](images/correlation_plot.png)
+![Correlation Plot](correlation_plot.png)
 
 ## 8. Tools Used
 
