@@ -7,7 +7,7 @@ MIS 311 | Introduction to Business Analytics | Data Analysis Projects
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
 ![Focus](https://img.shields.io/badge/Focus-Exploratory%20Data%20Analysis-blue?style=flat-square)
 
-## 1. Project Overview
+## 1. Data Overview
 
 This project conducts Exploratory Data Analysis (EDA)
 on a Cost of Living dataset covering 12 countries
@@ -17,16 +17,8 @@ The analysis examines income and living-cost patterns
 and explores their variation across observations
 and geographical regions.
 
-## 2. Research Objectives
 
-- Understand the structure of the dataset.
-- Identify missing values and duplicate records.
-- Conduct data cleaning and preparation.
-- Explore descriptive statistics.
-- Identify meaningful data patterns.
-- Present two key analytical insights.
-
-## 3. Dataset Description
+## 2. Dataset Description
 
 | Variable | Description |
 |---|---|
