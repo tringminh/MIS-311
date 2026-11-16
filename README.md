@@ -56,9 +56,9 @@ The cleaning process included:
     Key Insights
 ### Insight 1: Data Dispersion
 
-The dataset demonstrates substantial variation in both income and living costs across the 197 observations. Average monthly income ranges from 534.74 to 7,976.56, while cost of living ranges from 464.49 to 6,981.02, indicating that overall averages alone may conceal considerable differences between country-year observations. Therefore, more segmented analysis is necessary to understand the distribution of these economic indicators.
+Average income (4,244) exceeds average cost of living (3,698) by about 547 units per month, yet 44.7% of observations have living costs higher than income. Canada (-607) and the United States (-103) are the only countries with a negative average gap, while Germany (+1,211) and France (+1,023) lead. This shows that average living standards can hide financial pressure, and that North American countries face the highest cost burden in this sample.
 
-Supporting statistics: Mean, Standard Deviation, Minimum and Maximum. Suggested visualization: Histogram.
+Supporting statistics: Descriptive statistics. Suggested visualization: Histogram.
 
 ### Insight 2: Relationship Between Variables
 
@@ -69,15 +69,15 @@ Supporting statistics: Correlation coefficient. Suggested visualization: Scatter
     Data Visualizations
 
 ### Regional Comparison
-
+Clustered bar
 ![Regional Comparison](regional_comparison.png)
 
 ### Income Distribution
-
+Bar chart
 ![Income Distribution](income_distribution.png)
 
 ### Income vs. Cost of Living
-
+Scatter plot
 ![Correlation Plot](correlation_plot.png)
 
 ## 4. Tools Used
