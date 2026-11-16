@@ -9,13 +9,9 @@ MIS 311 | Introduction to Business Analytics | Data Analysis Projects
 
 ## 1. Data Overview
 
-This project conducts Exploratory Data Analysis (EDA)
-on a Cost of Living dataset covering 12 countries
-from 2000 to 2023.
+The Cost of Living dataset contains 201 observations and 5 variables, covering 12 countries across the period from 2000 to 2023. The dataset includes both numerical variables, such as Average Monthly Income and Cost of Living, and categorical variables, including Country and Region.
 
-The analysis examines income and living-cost patterns
-and explores their variation across observations
-and geographical regions.
+The dataset provides an opportunity to explore differences in income and living costs across countries and geographical regions. Through exploratory data analysis, the study aims to identify patterns in the distribution of income and living expenses and examine how these variables vary across the available observations.
 
 
 | Variable | Description |
@@ -49,8 +45,6 @@ The initial dataset contained 201 observations and 5 variables. During the data 
 
 Additionally, two missing values were identified in the Average_Monthly_Income variable. These values were removed, because it took place 1% of the dataset, so it does not have significant impact. Two missing Region values were also identified and completed based on the corresponding Country information, as both records belonged to Mexico, which is classified under North America.
 
-Following the cleaning process, the dataset contained 199 observations with no remaining missing values in Country, Year, Cost_of_Living, or Region. The Average_Monthly_Income variable retained two missing values, which were excluded from calculations involving income.
-
 ## 3. Descriptive Statistics
 
 | Statistic | Monthly Income | Cost of Living |
@@ -60,7 +54,7 @@ Following the cleaning process, the dataset contained 199 observations with no r
 | Median | 4266.46 | 3649.03 |
 | Std. Dev. | 2127.41 | 1990.70 |
 
-    Key Insights
+### Key Insights
 ### Insight 1: Data Dispersion
 
 Average income (4,244) exceeds average cost of living (3,698) by about 547 units per month, yet 44.7% of observations have living costs higher than income. Canada (-607) and the United States (-103) are the only countries with a negative average gap, while Germany (+1,211) and France (+1,023) lead. This shows that average living standards can hide financial pressure, and that North American countries face the highest cost burden in this sample.
@@ -73,7 +67,7 @@ The Pearson correlation coefficient between average monthly income and cost of l
 
 Supporting statistics: Correlation coefficient. Suggested visualization: Scatter Plot with linear trendline.
 
-    Data Visualizations
+### Data Visualizations
 
 ### Regional Comparison
 Clustered bar
