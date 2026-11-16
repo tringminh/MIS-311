@@ -43,6 +43,13 @@ The cleaning process included:
 - Completion of 2 missing region values.
 - Validation of the cleaned dataset.
 
+Data Cleaning and Preparation
+
+The initial dataset contained 201 observations and 5 variables. During the data quality assessment, two pairs of exact duplicate records were identified and removed, resulting in 197 unique observations.
+
+Additionally, two missing values were identified in the Average_Monthly_Income variable. These values were removed, because it took place 1% of the dataset, so it does not have significant impact. Two missing Region values were also identified and completed based on the corresponding Country information, as both records belonged to Mexico, which is classified under North America.
+
+Following the cleaning process, the dataset contained 199 observations with no remaining missing values in Country, Year, Cost_of_Living, or Region. The Average_Monthly_Income variable retained two missing values, which were excluded from calculations involving income.
 
 ## 3. Descriptive Statistics
 
