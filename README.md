@@ -18,8 +18,6 @@ and explores their variation across observations
 and geographical regions.
 
 
-## 2. Dataset Description
-
 | Variable | Description |
 |---|---|
 | Country | Country name |
@@ -36,19 +34,17 @@ Countries: 12
 
 Period: 2000–2023
 
-## 4. Data Cleaning
+## 2. Data Cleaning
 
 The cleaning process included:
 
 - Removal of 2 excess exact duplicate records.
-- Identification of 2 missing income values.
+- Removal of 2 missing income values.
 - Completion of 2 missing region values.
 - Validation of the cleaned dataset.
 
-Missing income values were retained as blank
-and excluded from calculations involving income.
 
-## 5. Descriptive Statistics
+## 3. Descriptive Statistics
 
 | Statistic | Monthly Income | Cost of Living |
 |---|---:|---:|
@@ -57,21 +53,20 @@ and excluded from calculations involving income.
 | Median | 4266.46 | 3649.03 |
 | Std. Dev. | 2127.41 | 1990.70 |
 
-## 6. Key Insights
-
+    Key Insights
 ### Insight 1: Data Dispersion
 
-The dataset demonstrates substantial variation
-in both income and living costs across observations.
-Averages alone may conceal important differences.
+The dataset demonstrates substantial variation in both income and living costs across the 197 observations. Average monthly income ranges from 534.74 to 7,976.56, while cost of living ranges from 464.49 to 6,981.02, indicating that overall averages alone may conceal considerable differences between country-year observations. Therefore, more segmented analysis is necessary to understand the distribution of these economic indicators.
+
+Supporting statistics: Mean, Standard Deviation, Minimum and Maximum. Suggested visualization: Histogram.
 
 ### Insight 2: Relationship Between Variables
 
-The Pearson correlation is approximately -0.026,
-indicating almost no linear relationship
-within the available observations.
+The Pearson correlation coefficient between average monthly income and cost of living is approximately -0.026 across 197 complete observations, indicating almost no linear relationship within this dataset. This suggests that higher recorded income does not consistently correspond to higher recorded living costs, highlighting the importance of examining additional factors such as country, year, and data measurement definitions before drawing affordability conclusions.
 
-## 7. Data Visualizations
+Supporting statistics: Correlation coefficient. Suggested visualization: Scatter Plot with linear trendline.
+
+    Data Visualizations
 
 ### Regional Comparison
 
@@ -85,30 +80,18 @@ within the available observations.
 
 ![Correlation Plot](correlation_plot.png)
 
-## 8. Tools Used
+## 4. Tools Used
 
 - Microsoft Excel
 - Exploratory Data Analysis
 - Data Visualization
 
-## 9. Limitations
+## 5. Limitations
 
 The provided dataset does not specify
 the currency unit or the original source metadata.
 Therefore, conclusions are limited to
 the numerical patterns within the dataset.
-
-## 10. Project Structure
-
-- dataset/: Cleaned and analysis data
-- images/: Data visualizations
-- report/: Final report
-- references/: References and source notes
-
-## 11. References
-
-Original data source information should be added
-when provided by the course instructor.
 
 ---
 
